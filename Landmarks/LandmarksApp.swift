@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-@main
+@main // 앱의 진입점을 식별
 struct LandmarksApp: App {
     var body: some Scene {
         WindowGroup {
