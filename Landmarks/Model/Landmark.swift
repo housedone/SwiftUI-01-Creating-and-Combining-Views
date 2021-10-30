@@ -18,6 +18,7 @@ struct Landmark: Hashable, Codable, Identifiable {
     var park: String
     var state: String
     var description: String
+    var isFavorite: Bool
     
     
     // private으로 만드는 이유는 Landmark 구조체의 사용자들은 이미지 자체에만 관심이 있고 자세한 구현은 신경쓰지 않기 때문이다.

@@ -9,9 +9,12 @@ import SwiftUI
 
 @main // 앱의 진입점을 식별
 struct LandmarksApp: App {
+    @StateObject private var modelData = ModelData()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(modelData)
         }
     }
 }
