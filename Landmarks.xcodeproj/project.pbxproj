@@ -39,7 +39,6 @@
 		71839E71272B9E2E006B60CA = {
 			isa = PBXGroup;
 			children = (
-				7191F5A7272CD770000F7893 /* MapView.swift */,
 				71839E7C272B9E2E006B60CA /* Landmarks */,
 				71839E7B272B9E2E006B60CA /* Products */,
 			);
@@ -56,6 +55,7 @@
 		71839E7C272B9E2E006B60CA /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				7191F5A7272CD770000F7893 /* MapView.swift */,
 				71839E7D272B9E2E006B60CA /* LandmarksApp.swift */,
 				71839E7F272B9E2E006B60CA /* ContentView.swift */,
 				71839E81272B9E2E006B60CA /* Assets.xcassets */,
