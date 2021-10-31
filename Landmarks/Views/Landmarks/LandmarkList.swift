@@ -41,7 +41,7 @@ struct LandmarkList: View {
 struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
         LandmarkList()
-            .environmentObject(ModelData())
+            .environmentObject(ModelData()) // View 계층 구조의 View가 환경을 통해 전달된 개체를 읽을 수 있도록 이 modifier를 적용한다.
         
 //        ForEach(["iPhone SE (2nd generation)", "iPhone 13 Pro Max"], id: \.self) { deviceName in
 //            LandmarkList()
