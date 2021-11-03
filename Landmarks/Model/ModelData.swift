@@ -13,6 +13,8 @@ final class ModelData: ObservableObject {
     // landmarkData.json에서 초기화한 랜드마크 배열
     // 관찰 가능한 오브젝트는 구독자가 변경 사항을 픽업할 수 있도록 데이터에 대한 변경 사항을 @Published 해야 한다.
     @Published var landmarks: [Landmark] = load("landmarkData.json")
+    
+    var hikes: [Hike] = load("hikeData.json")
 }
 
 
